@@ -9,7 +9,6 @@ std::vector<std::string> SplitString(const std::string& str) {
 }
 
 TEST(BasicTestSuite, BasicTest1) {
-  int* memory_leak = new int[100];
   std::ostringstream out;
   out << "Hello, World!";
   ASSERT_EQ(out.str(), "Hello, World!");
